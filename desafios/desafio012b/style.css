@@ -5,7 +5,7 @@
 :root {
     --cor001: #b11111;
     --cor002: #2e151b;
-    --cor003: #de2484;
+    --cor003: #eb0f81;
     --cor004: #a62b07;
     --cor005: #4e2525; 
 
@@ -26,8 +26,8 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor003), var(--cor001));
-    color: black;
+    background-image: linear-gradient(to bottom, var(--cor003), black);
+    color: white;
     text-align: center;
 }
 
@@ -42,22 +42,22 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor001);
+    background-color: black;
     padding: 10px;
 }
 
 nav > a {
     padding: 10px;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: none;
-    color: black;
+    color: var(--cor003);
     border-radius: 5px;
     transition-duration: 0.3s;
 }
 
 nav > a:hover {
-    background-color: black;
-    color: var(--cor003);
+    background-color: var(--cor003);
+    color: black;
     text-shadow: 0.5px 0.5px 0px black;
 }
 
@@ -94,7 +94,7 @@ section#img002 {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, var(--cor003), var(--cor001));
+    background-image: linear-gradient(to bottom, var(--cor003), black);
     color: black;
     text-align: center;
     padding: 15px;
